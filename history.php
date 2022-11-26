@@ -34,7 +34,7 @@ $transactions = getTransactions();
             <div class="navbar-header">
                 <a href="index.php" class="navbar-brand d-flex align-items-center">
                     <img style="height: 40px" class="mr-3" src="https://cdn-icons-png.flaticon.com/512/3572/3572730.png" alt="Logo">
-                    <span>SendGlobal</span>
+                    <span>Sendr</span>
                 </a>
             </div>
 

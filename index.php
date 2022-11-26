@@ -12,7 +12,7 @@ require __DIR__ . '/functions/session.php';
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SendGlobal - Send money to anyone, locally or abroad</title>
+    <title>Sendr - Send money to anyone, locally or abroad</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
 
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
@@ -66,7 +66,7 @@ require __DIR__ . '/functions/session.php';
             <div class="navbar-header">
                 <a href="index.php" class="navbar-brand d-flex align-items-center">
                     <img style="height: 40px" class="mr-3" src="https://cdn-icons-png.flaticon.com/512/3572/3572730.png" alt="Logo">
-                    <span>SendGlobal</span>
+                    <span>Sendr</span>
                 </a>
             </div>
 
@@ -124,7 +124,7 @@ require __DIR__ . '/functions/session.php';
                         </h4>
 
                         <p class="lead text-white">
-                            SendGlobal enables you to send money to any user regardless of
+                            Sendr enables you to send money to any user regardless of
                             their wallet currency or country. Sign up and start sending and receiving money!
                         </p>
 
@@ -193,7 +193,7 @@ require __DIR__ . '/functions/session.php';
                         <h4 class="mb-3">Secure</h4>
 
                         <p class="lead mt-0 mb-4 text-left">
-                            Every cent transferred via SendGlobal is done with knowledge of the
+                            Every cent transferred via Sendr is done with knowledge of the
                             sender. No one can send money on your behalf
                         </p>
 
