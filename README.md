@@ -1,5 +1,5 @@
-# SendGlobal
-SendGlobal is a web application that attempts to enable cross border transfer of funds even between wallets with different currencies
+# Sendr
+Sendr is a web application that attempts to enable cross border transfer of funds even between wallets with different currencies
 
 The application enables users create accounts, top up their wallets and send money to each other instantly.
 
@@ -21,13 +21,13 @@ To set the system up:
 ```
 // Modify these values appropriately
 define('DB_HOST', '<YOUR HOST NAME>');
-define('DB_DATABASE', 'sendglobal');
+define('DB_DATABASE', 'Sendr');
 define('DB_USER', '<DB USERNAME>');
 define('DB_PASSWORD', '<DB PASSWORD>');
 
 // Rest of file, do not modify
 ```
-- Open the site on a browser using its's correct url, e.g *localhost/sendglobal*
+- Open the site on a browser using its's correct url, e.g *localhost/Sendr*
 
 ### Usage
 First, you need to create an account. Click on `Get Started` on the site navigation and provide your account details

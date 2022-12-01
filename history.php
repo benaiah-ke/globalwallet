@@ -1,5 +1,7 @@
 <?php
 
+ini_set('display_errors', 1); error_reporting(E_ALL);
+
 require __DIR__ . '/functions/session.php';
 require __DIR__ . '/functions/history.php';
 
@@ -32,7 +34,7 @@ $transactions = getTransactions();
             <div class="navbar-header">
                 <a href="index.php" class="navbar-brand d-flex align-items-center">
                     <img style="height: 40px" class="mr-3" src="https://cdn-icons-png.flaticon.com/512/3572/3572730.png" alt="Logo">
-                    <span>SendGlobal</span>
+                    <span>Sendr</span>
                 </a>
             </div>
 

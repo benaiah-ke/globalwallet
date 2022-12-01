@@ -1,5 +1,7 @@
 <?php
 
+ini_set('display_errors', 1); error_reporting(E_ALL);
+
 function getTransactions(){
     $currentUser = getCurrentUser();
     $user_id = $currentUser['id'];
