@@ -24,7 +24,7 @@ if(!sessionActive()){
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
 </head>
 <body class="bg-light">
-    <nav class="navbar navbar-default bg-white navbar-expand">
+    <nav class="navbar navbar-default bg-white navbar-expand-md">
         <div class="container-fluid">
 
             <div class="navbar-header">
@@ -34,27 +34,36 @@ if(!sessionActive()){
                 </a>
             </div>
 
-            <ul class="navbar-nav">
-                <li class="nav-item">
-                    <a class="nav-link" href="dashboard.php">Dashboard</a>
-                </li>
+            <button class="btn ml-auto d-md-none navbar-toggle" data-toggle="collapse" data-target="#menu">
+                <span style="display: block; margin: 0 0 5px 0; height: 3px; width: 25px; background: #333"></span>
+                <span style="display: block; margin: 5px 0; height: 3px; width: 25px; background: #333"></span>
+                <span style="display: block; margin: 0; height: 3px; width: 25px; background: #333"></span>
+            </button>
 
-                <li class="nav-item">
-                    <a class="nav-link" href="history.php">History</a>
-                </li>
+            <div class="collapse navbar-collapse ml-md-auto" id="menu" aria-expanded="false">
+                <ul class="mt-4 mt-md-0 nav navbar-nav ml-md-auto">
+            
+                    <li class="nav-item">
+                        <a class="nav-link" href="dashboard.php">Dashboard</a>
+                    </li>
 
-                <li class="nav-item">
-                    <a class="nav-link" href="deposit.php">Top Up</a>
-                </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="history.php">History</a>
+                    </li>
 
-                <li class="nav-item">
-                    <a class="nav-link" href="send.php">Send Money</a>
-                </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="deposit.php">Top Up</a>
+                    </li>
 
-                <li class="nav-item">
-                    <a class="nav-link" href="logout.php">Log Out</a>
-                </li>
-            </ul>
+                    <li class="nav-item">
+                        <a class="nav-link" href="send.php">Send Money</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="logout.php">Log Out</a>
+                    </li>
+                </ul>
+            </div>
 
         </div>
     </nav>
