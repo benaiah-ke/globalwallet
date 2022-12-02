@@ -136,6 +136,25 @@ require __DIR__ . '/functions/session.php';
 
                 <div class="col-sm-6 col-lg-6">
                     <img src="assets/images/transfer_money.svg" class="hero-img" alt="Transfer Money">
+                    <style>
+                        @media screen and (max-width: 768px) {
+                            .hero-img {
+                                width: 95%;
+                            }
+
+                            * {
+                                font-size: 12px;
+                            }
+
+                            .hero-subtitle {
+                                font-size: 18px;
+                            }
+
+                            .hero-title, .text-info {
+                                font-size: 22px;
+                            }
+                        }
+                    </style>
                 </div>
 
             </div>
