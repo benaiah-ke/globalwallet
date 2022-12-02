@@ -124,11 +124,8 @@ require __DIR__ . '/functions/session.php';
 
                 <div class="col-sm-6 col-lg-6 d-flex align-items-center">
                     <div>
-                        <h5 class="hero-subtitle mb-3">
-                            Whether locally or across borders, 
-                        </h5>
                         <h4 class="hero-title mb-4">
-                            Money Transfer should be <span class="text-info">simple</span>
+                            Whether locally or accross borders, money transfer should be <span class="info-text">simple</span>
                         </h4>
 
                         <p class="lead text-white">
@@ -137,7 +134,7 @@ require __DIR__ . '/functions/session.php';
                         </p>
 
                         <div>
-                            <a href="dashboard.php" class="btn btn-success btn-lg">Start Sending Money</a>
+                            <a href="dashboard.php" class="btn btn-success btn-lg btn-top">Start Sending Money</a>
                         </div>
                     </div>
                 </div>
@@ -147,20 +144,25 @@ require __DIR__ . '/functions/session.php';
                     <style>
                         @media screen and (max-width: 768px) {
                             .hero-img {
-                                width: 95%;
+                                width: 100%;
                             }
 
                             * {
                                 font-size: 12px;
+                                text-align: center;
                             }
 
-                            .hero-subtitle {
-                                font-size: 18px;
+                            .hero-title, .info-text {
+                                font-size: 20px;
+                                text-align: center;
+                                line-height: 25px;
                             }
 
-                            .hero-title, .text-info {
-                                font-size: 22px;
+                            .lead {
+                                padding-bottom: 20px;
+                                text-align: center;
                             }
+
                         }
                     </style>
                 </div>
