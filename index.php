@@ -163,6 +163,14 @@ require __DIR__ . '/functions/session.php';
                                 text-align: center;
                             }
 
+                            .ml-3 h4, .ml-3 p {
+                                text-align: left;
+                            }
+
+                            .ml-3 {
+                                padding-bottom: 15px;
+                            }
+
                         }
                     </style>
                 </div>
