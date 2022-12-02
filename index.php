@@ -66,7 +66,7 @@ require __DIR__ . '/functions/session.php';
             <div class="navbar-header">
                 <a href="index.php" class="navbar-brand d-flex align-items-center">
                     <img style="height: 40px" class="mr-3" src="https://cdn-icons-png.flaticon.com/512/3572/3572730.png" alt="Logo">
-                    <span>Sendr</span>
+                    <span class="logo-text">Sendr</span>
                 </a>
             </div>
 
@@ -161,6 +161,15 @@ require __DIR__ . '/functions/session.php';
                             .lead {
                                 padding-bottom: 20px;
                                 text-align: center;
+                            }
+
+                            .logo-text {
+                                font-size: 18px;
+                            }
+
+                            .nav-link {
+                                font-size: 14px;
+                                text-align: left;
                             }
 
                             .ml-3 h4, .ml-3 p {

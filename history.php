@@ -34,7 +34,7 @@ $transactions = getTransactions();
             <div class="navbar-header">
                 <a href="index.php" class="navbar-brand d-flex align-items-center">
                     <img style="height: 40px" class="mr-3" src="https://cdn-icons-png.flaticon.com/512/3572/3572730.png" alt="Logo">
-                    <span>Sendr</span>
+                    <span class="logo-text">Sendr</span>
                 </a>
             </div>
 
@@ -80,6 +80,26 @@ $transactions = getTransactions();
             <a>History</a>
         </li>
     </ul>
+
+    <style>
+        @media screen and (max-width: 768px) {
+
+            * {
+                font-size: 12px;
+                text-align: center;
+            }
+
+            .logo-text {
+                font-size: 18px;
+            }
+
+            .nav-link {
+                font-size: 14px;
+                text-align: left;
+            }
+
+        }
+    </style>
 
     <div class="container py-5">
 
